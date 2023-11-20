@@ -1,0 +1,16 @@
+Regex101 => https://regex101.com/
+-----------------------------------------------
+-------------Comandos no terminal com regex-------------
+grep [regex]
+exemplo => grep Anna /home/camila/database.csv
+exemplo => grep Beatrice /home/camila/database.csv
+exemplo => grep -n Anna /home/camila/database.csv
+-n => retorna a linha onde a ocorrência apareceu
+-----------------------------------------------
+-------------Regex-------------
+\d => digitos
++ => repetição
+//g => pega todo arquivo
+\ => escape
+s => espaço
+{2} => repetição de 2 vezes
