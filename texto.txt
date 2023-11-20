@@ -18,6 +18,11 @@ s => espaço
 [.-] => sequencias de caracteres
 ? => opcional (pode ou não aparecer) (0 ou 1 vez)
 m => multilinhas
+w => retorna qualquer palavra (varios caracteres)
+() => grupo de captura
+()+ => repetição de grupo de captura
+[À-ÿ] => caracteres acentuados
+?: => grupo de nao captura que nao pega es vazio no início
 
 ## Classes de Caracteres
 [a-z] => Qualquer letra minúscula de 'a' a 'z' ("a", "m", "z")
@@ -31,7 +36,7 @@ m => multilinhas
 
 - => Hífen usado para definir intervalos de caracteres. Pode ser escapado com \ para ser tratado como um literal.
 ] => Colchete de fechamento usado para marcar o fim de uma classe de caracteres. Pode ser escapado com \ para ser tratado como um literal.
-^ => Circunflexo usado para negar uma classe de caracteres quando colocado no início de [ ]. Dentro de [ ], é tratado como um literal.
+^ => Circunflexo usado para negar uma classe de caracteres quando colocado no início de [ ]. Dentro de [ ], é tratado como um literal. Ancora
 \ => Barra invertida usada para escapar caracteres especiais dentro de [ ] para que sejam tratados como literais.
 
 ## Shorthands
