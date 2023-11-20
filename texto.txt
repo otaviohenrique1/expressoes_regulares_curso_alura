@@ -14,3 +14,6 @@ exemplo => grep -n Anna /home/camila/database.csv
 \ => escape
 s => espaço
 {2} => repetição de 2 vezes
+{4,5} => repetição de 4 a 5 vezes
+[.-] => sequencias de caracteres
+? => opcional (pode ou não aparecer) (0 ou 1 vez)
