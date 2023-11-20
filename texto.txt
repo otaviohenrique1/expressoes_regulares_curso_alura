@@ -22,10 +22,13 @@ exemplo => grep -n Anna /home/camila/database.csv
 () => grupo de captura
 ()+ => repetição de grupo de captura
 [À-ÿ] => caracteres acentuados
-?: => grupo de nao captura que nao pega es vazio no início
+?: => grupo de não captura que não pega es vazio no início
 . => qualquer caractere
 [1|2] => backreference (espelho de referencia a um grupo)
 \b => limite da palavra (exemplo busca uma palavra isoladamente)
+\i => isensitive (não difere maiusculas e minusculas)
+^ => antecipação negada
+| => ou (exemplo: .|- => . ou -)
 
 ## Classes de Caracteres
 [a-z] => Qualquer letra minúscula de 'a' a 'z' ("a", "m", "z")

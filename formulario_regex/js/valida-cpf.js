@@ -1,10 +1,11 @@
  function removePontuacao(campo) {
-    return ;
+    return campo.value.replace(/\.|-/g, "");
 }
 
 
 function todosDigitosIguais(cpf) {
-    return ;
+    return /^(\d)\1{10}/.test(cpf);
+    // \1 => faz referencia a \d
 }
 
 
